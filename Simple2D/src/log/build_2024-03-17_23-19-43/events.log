@@ -1,0 +1,363 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (lidar_odometry) JobQueued: {'identifier': 'lidar_odometry', 'dependencies': OrderedDict()}
+[0.000559] (lidar_odometry) JobStarted: {'identifier': 'lidar_odometry'}
+[0.045898] (lidar_odometry) JobProgress: {'identifier': 'lidar_odometry', 'progress': 'cmake'}
+[0.046144] (lidar_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/Simple-2D-LiDAR-Odometry', '-DCMAKE_INSTALL_PREFIX=/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry'], 'cwd': '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gaurang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gaurang'), ('OLDPWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gaurang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gaurang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gaurang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gaurang-MS-7C96:@/tmp/.ICE-unix/2782,unix/gaurang-MS-7C96:/tmp/.ICE-unix/2782'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a22f88_c46f_4511_92d9_65b363d772f3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gaurang/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_cpp_pkg:/home/gaurang/ros2_ws/install/cyglidar_d1_ros2:/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.091419] (lidar_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099821] (-) TimerEvent: {}
+[0.134046] (lidar_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.139835] (lidar_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.197957] (lidar_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199918] (-) TimerEvent: {}
+[0.203074] (lidar_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.203276] (lidar_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.203522] (lidar_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.205640] (lidar_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.270809] (lidar_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.275811] (lidar_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.276030] (lidar_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.276341] (lidar_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278756] (lidar_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300025] (-) TimerEvent: {}
+[0.400259] (-) TimerEvent: {}
+[0.404212] (lidar_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.469919] (lidar_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500581] (-) TimerEvent: {}
+[0.501730] (lidar_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.505843] (lidar_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511957] (lidar_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.521893] (lidar_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.536076] (lidar_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.586724] (lidar_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.588735] (lidar_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600677] (-) TimerEvent: {}
+[0.670734] (lidar_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.691982] (lidar_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.701006] (-) TimerEvent: {}
+[0.729703] (lidar_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.737004] (lidar_odometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.796277] (lidar_odometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.796627] (lidar_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.801097] (-) TimerEvent: {}
+[0.857459] (lidar_odometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.858275] (lidar_odometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.901423] (-) TimerEvent: {}
+[0.968791] (lidar_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.001748] (-) TimerEvent: {}
+[1.068066] (lidar_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.102086] (-) TimerEvent: {}
+[1.140821] (lidar_odometry) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.152049] (lidar_odometry) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.181317] (lidar_odometry) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.181439] (lidar_odometry) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.196279] (lidar_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.202475] (-) TimerEvent: {}
+[1.209833] (lidar_odometry) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.221518] (lidar_odometry) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.256493] (lidar_odometry) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.256664] (lidar_odometry) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.281285] (lidar_odometry) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.284553] (lidar_odometry) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.302832] (-) TimerEvent: {}
+[1.396860] (lidar_odometry) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.397161] (lidar_odometry) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.398818] (lidar_odometry) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.402878] (-) TimerEvent: {}
+[1.405511] (lidar_odometry) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.417304] (lidar_odometry) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.424961] (lidar_odometry) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.496769] (lidar_odometry) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.496940] (lidar_odometry) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.502967] (-) TimerEvent: {}
+[1.557310] (lidar_odometry) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.557526] (lidar_odometry) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.603103] (-) TimerEvent: {}
+[1.615616] (lidar_odometry) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.615855] (lidar_odometry) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.673425] (lidar_odometry) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.673645] (lidar_odometry) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.703228] (-) TimerEvent: {}
+[1.730529] (lidar_odometry) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.730773] (lidar_odometry) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.788058] (lidar_odometry) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.788241] (lidar_odometry) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.803324] (-) TimerEvent: {}
+[1.845803] (lidar_odometry) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.903447] (-) TimerEvent: {}
+[1.914477] (lidar_odometry) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.915756] (lidar_odometry) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.917230] (lidar_odometry) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.918227] (lidar_odometry) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.928274] (lidar_odometry) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.931527] (lidar_odometry) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.934765] (lidar_odometry) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.938405] (lidar_odometry) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.003566] (-) TimerEvent: {}
+[2.006404] (lidar_odometry) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.018741] (lidar_odometry) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.052006] (lidar_odometry) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.052738] (lidar_odometry) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.052834] (lidar_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.101679] (lidar_odometry) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.101851] (lidar_odometry) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.101964] (lidar_odometry) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.103649] (-) TimerEvent: {}
+[2.203875] (-) TimerEvent: {}
+[2.212996] (lidar_odometry) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.217879] (lidar_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.222933] (lidar_odometry) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.303995] (-) TimerEvent: {}
+[2.327575] (lidar_odometry) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.404117] (-) TimerEvent: {}
+[2.436526] (lidar_odometry) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.504223] (-) TimerEvent: {}
+[2.541245] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.541984] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.542144] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.542550] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.542666] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.543128] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.543211] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.543680] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.543775] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.544236] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.544335] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.544798] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.544914] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.545045] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.545142] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.545272] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.545351] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.545810] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.545952] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.546457] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.546592] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.547153] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.547237] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.547729] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.547887] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.548392] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.548684] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.549162] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.549283] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.549756] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.549904] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.550374] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.550503] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.551022] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.551146] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.551647] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.551821] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.552321] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.552407] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.552885] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.553277] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.553432] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.553519] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.553654] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.553730] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.553887] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.553954] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.554463] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.554587] (lidar_odometry) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.555092] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.555637] (lidar_odometry) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.574653] (lidar_odometry) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[2.602329] (lidar_odometry) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.604310] (-) TimerEvent: {}
+[2.697860] (lidar_odometry) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.5 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[2.704394] (-) TimerEvent: {}
+[2.804900] (-) TimerEvent: {}
+[2.905120] (-) TimerEvent: {}
+[3.005333] (-) TimerEvent: {}
+[3.024333] (lidar_odometry) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.086207] (lidar_odometry) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.086435] (lidar_odometry) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/Simple-2D-LiDAR-Odometry/include;$<BUILD_INTERFACE:/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/Simple-2D-LiDAR-Odometry/include>\n'}
+[3.086509] (lidar_odometry) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.087755] (lidar_odometry) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.091321] (lidar_odometry) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.091420] (lidar_odometry) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.091985] (lidar_odometry) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.093032] (lidar_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.105429] (-) TimerEvent: {}
+[3.158994] (lidar_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[3.161772] (lidar_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry\n'}
+[3.176408] (lidar_odometry) CommandEnded: {'returncode': 0}
+[3.177183] (lidar_odometry) JobProgress: {'identifier': 'lidar_odometry', 'progress': 'build'}
+[3.178398] (lidar_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry', '--', '-j12', '-l12'], 'cwd': '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gaurang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gaurang'), ('OLDPWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gaurang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gaurang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gaurang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gaurang-MS-7C96:@/tmp/.ICE-unix/2782,unix/gaurang-MS-7C96:/tmp/.ICE-unix/2782'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a22f88_c46f_4511_92d9_65b363d772f3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gaurang/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_cpp_pkg:/home/gaurang/ros2_ws/install/cyglidar_d1_ros2:/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[3.205543] (-) TimerEvent: {}
+[3.224228] (lidar_odometry) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o\x1b[0m\n'}
+[3.224425] (lidar_odometry) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o\x1b[0m\n'}
+[3.305670] (-) TimerEvent: {}
+[3.406117] (-) TimerEvent: {}
+[3.506475] (-) TimerEvent: {}
+[3.606790] (-) TimerEvent: {}
+[3.707093] (-) TimerEvent: {}
+[3.807392] (-) TimerEvent: {}
+[3.907713] (-) TimerEvent: {}
+[4.008013] (-) TimerEvent: {}
+[4.108319] (-) TimerEvent: {}
+[4.208619] (-) TimerEvent: {}
+[4.308910] (-) TimerEvent: {}
+[4.409198] (-) TimerEvent: {}
+[4.509469] (-) TimerEvent: {}
+[4.609744] (-) TimerEvent: {}
+[4.710084] (-) TimerEvent: {}
+[4.810393] (-) TimerEvent: {}
+[4.910727] (-) TimerEvent: {}
+[5.011028] (-) TimerEvent: {}
+[5.111341] (-) TimerEvent: {}
+[5.211646] (-) TimerEvent: {}
+[5.311946] (-) TimerEvent: {}
+[5.412249] (-) TimerEvent: {}
+[5.512555] (-) TimerEvent: {}
+[5.612856] (-) TimerEvent: {}
+[5.713166] (-) TimerEvent: {}
+[5.813476] (-) TimerEvent: {}
+[5.913784] (-) TimerEvent: {}
+[6.014087] (-) TimerEvent: {}
+[6.114385] (-) TimerEvent: {}
+[6.214650] (-) TimerEvent: {}
+[6.314955] (-) TimerEvent: {}
+[6.415300] (-) TimerEvent: {}
+[6.515603] (-) TimerEvent: {}
+[6.615900] (-) TimerEvent: {}
+[6.716168] (-) TimerEvent: {}
+[6.816462] (-) TimerEvent: {}
+[6.916755] (-) TimerEvent: {}
+[7.017059] (-) TimerEvent: {}
+[7.117369] (-) TimerEvent: {}
+[7.217674] (-) TimerEvent: {}
+[7.317973] (-) TimerEvent: {}
+[7.418273] (-) TimerEvent: {}
+[7.518586] (-) TimerEvent: {}
+[7.618883] (-) TimerEvent: {}
+[7.719176] (-) TimerEvent: {}
+[7.819480] (-) TimerEvent: {}
+[7.919780] (-) TimerEvent: {}
+[8.020074] (-) TimerEvent: {}
+[8.120362] (-) TimerEvent: {}
+[8.220647] (-) TimerEvent: {}
+[8.320923] (-) TimerEvent: {}
+[8.421216] (-) TimerEvent: {}
+[8.521520] (-) TimerEvent: {}
+[8.621805] (-) TimerEvent: {}
+[8.722109] (-) TimerEvent: {}
+[8.822380] (-) TimerEvent: {}
+[8.922674] (-) TimerEvent: {}
+[9.022972] (-) TimerEvent: {}
+[9.123265] (-) TimerEvent: {}
+[9.223562] (-) TimerEvent: {}
+[9.323857] (-) TimerEvent: {}
+[9.424134] (-) TimerEvent: {}
+[9.524477] (-) TimerEvent: {}
+[9.624764] (-) TimerEvent: {}
+[9.725051] (-) TimerEvent: {}
+[9.825354] (-) TimerEvent: {}
+[9.925658] (-) TimerEvent: {}
+[10.025958] (-) TimerEvent: {}
+[10.126260] (-) TimerEvent: {}
+[10.226560] (-) TimerEvent: {}
+[10.326873] (-) TimerEvent: {}
+[10.427150] (-) TimerEvent: {}
+[10.527419] (-) TimerEvent: {}
+[10.627701] (-) TimerEvent: {}
+[10.727980] (-) TimerEvent: {}
+[10.828260] (-) TimerEvent: {}
+[10.928537] (-) TimerEvent: {}
+[11.028820] (-) TimerEvent: {}
+[11.129094] (-) TimerEvent: {}
+[11.229371] (-) TimerEvent: {}
+[11.329655] (-) TimerEvent: {}
+[11.429935] (-) TimerEvent: {}
+[11.530239] (-) TimerEvent: {}
+[11.630548] (-) TimerEvent: {}
+[11.730878] (-) TimerEvent: {}
+[11.831169] (-) TimerEvent: {}
+[11.931462] (-) TimerEvent: {}
+[12.031750] (-) TimerEvent: {}
+[12.132045] (-) TimerEvent: {}
+[12.232337] (-) TimerEvent: {}
+[12.332630] (-) TimerEvent: {}
+[12.432917] (-) TimerEvent: {}
+[12.533203] (-) TimerEvent: {}
+[12.633491] (-) TimerEvent: {}
+[12.733778] (-) TimerEvent: {}
+[12.834069] (-) TimerEvent: {}
+[12.934360] (-) TimerEvent: {}
+[13.034651] (-) TimerEvent: {}
+[13.134946] (-) TimerEvent: {}
+[13.235242] (-) TimerEvent: {}
+[13.335550] (-) TimerEvent: {}
+[13.435843] (-) TimerEvent: {}
+[13.536135] (-) TimerEvent: {}
+[13.636423] (-) TimerEvent: {}
+[13.736709] (-) TimerEvent: {}
+[13.837000] (-) TimerEvent: {}
+[13.937291] (-) TimerEvent: {}
+[14.037586] (-) TimerEvent: {}
+[14.137881] (-) TimerEvent: {}
+[14.238180] (-) TimerEvent: {}
+[14.338866] (-) TimerEvent: {}
+[14.439146] (-) TimerEvent: {}
+[14.539666] (-) TimerEvent: {}
+[14.639961] (-) TimerEvent: {}
+[14.740644] (-) TimerEvent: {}
+[14.841164] (-) TimerEvent: {}
+[14.941458] (-) TimerEvent: {}
+[15.041966] (-) TimerEvent: {}
+[15.142482] (-) TimerEvent: {}
+[15.242785] (-) TimerEvent: {}
+[15.343311] (-) TimerEvent: {}
+[15.443601] (-) TimerEvent: {}
+[15.543894] (-) TimerEvent: {}
+[15.644420] (-) TimerEvent: {}
+[15.744944] (-) TimerEvent: {}
+[15.845232] (-) TimerEvent: {}
+[15.945915] (-) TimerEvent: {}
+[16.046428] (-) TimerEvent: {}
+[16.146732] (-) TimerEvent: {}
+[16.247023] (-) TimerEvent: {}
+[16.347340] (-) TimerEvent: {}
+[16.447657] (-) TimerEvent: {}
+[16.547964] (-) TimerEvent: {}
+[16.648282] (-) TimerEvent: {}
+[16.748605] (-) TimerEvent: {}
+[16.775035] (lidar_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_odometry_node\x1b[0m\n'}
+[16.848734] (-) TimerEvent: {}
+[16.949040] (-) TimerEvent: {}
+[17.049326] (-) TimerEvent: {}
+[17.149876] (-) TimerEvent: {}
+[17.250406] (-) TimerEvent: {}
+[17.350875] (-) TimerEvent: {}
+[17.451442] (-) TimerEvent: {}
+[17.551997] (-) TimerEvent: {}
+[17.652283] (-) TimerEvent: {}
+[17.752592] (-) TimerEvent: {}
+[17.849275] (lidar_odometry) StdoutLine: {'line': b'[100%] Built target lidar_odometry_node\n'}
+[17.852683] (-) TimerEvent: {}
+[17.862892] (lidar_odometry) CommandEnded: {'returncode': 0}
+[17.887208] (lidar_odometry) JobProgress: {'identifier': 'lidar_odometry', 'progress': 'install'}
+[17.895987] (lidar_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry'], 'cwd': '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gaurang'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gaurang'), ('OLDPWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2782'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gaurang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gaurang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gaurang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gaurang-MS-7C96:@/tmp/.ICE-unix/2782,unix/gaurang-MS-7C96:/tmp/.ICE-unix/2782'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50a22f88_c46f_4511_92d9_65b363d772f3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.144'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/build/lidar_odometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9f8f7900875bef2484568dd65f7896c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gaurang/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gaurang/ros2_ws/install/my_cpp_pkg:/home/gaurang/ros2_ws/install/cyglidar_d1_ros2:/home/gaurang/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[17.902344] (lidar_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.902544] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/lib/lidar_odometry/lidar_odometry_node\n'}
+[17.911789] (lidar_odometry) StdoutLine: {'line': b'-- Set runtime path of "/home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/lib/lidar_odometry/lidar_odometry_node" to ""\n'}
+[17.912002] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_odometry\n'}
+[17.912248] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_odometry\n'}
+[17.912514] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.sh\n'}
+[17.912696] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.dsv\n'}
+[17.912868] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/environment/path.sh\n'}
+[17.913045] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/environment/path.dsv\n'}
+[17.913234] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/local_setup.bash\n'}
+[17.913439] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/local_setup.sh\n'}
+[17.913632] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/local_setup.zsh\n'}
+[17.913804] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/local_setup.dsv\n'}
+[17.913959] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/package.dsv\n'}
+[17.914181] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/ament_index/resource_index/packages/lidar_odometry\n'}
+[17.914448] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig.cmake\n'}
+[17.914622] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig-version.cmake\n'}
+[17.914807] (lidar_odometry) StdoutLine: {'line': b'-- Installing: /home/gaurang/ros2_ws/src/algorithms/Simple2D/src/install/lidar_odometry/share/lidar_odometry/package.xml\n'}
+[17.916565] (lidar_odometry) CommandEnded: {'returncode': 0}
+[17.953283] (-) TimerEvent: {}
+[18.024914] (lidar_odometry) JobEnded: {'identifier': 'lidar_odometry', 'rc': 0}
+[18.025233] (-) EventReactorShutdown: {}
